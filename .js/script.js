@@ -44,12 +44,12 @@ const user2 = {
     banks: [
         ['tbc', {address: {city: 'Tbilisi'}}],
         ['BoG', {address: {city: 'Tbilisi'}}],
-        ['SNB', {address: {city: 'Switzerland'}}],
+        ['SNB', {address: {city: 'Bern'}}],
 
     ]
 
 }
 
     const {banks: [, , [, {address: {city} = {}}]]} = user2;
-    console.log(city); //Switzerland
+    console.log(city); //Bern
 
